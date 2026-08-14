@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segeo UI", Roboto, Arial, Helvetica, sans-serif;
+}
+
+ /* insta */ 
+
+ .instagram{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+ }
+
+ .left_bar{
+    width: 16%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+    border-right:1px solid rgb(212, 212, 212);
+ }
+ #logo{
+   font-family:"lobster", cursive;
+   font-size: 30px;
+ }
+ .left_bar .item{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   padding: 12px;
+   font-size: 14px;
+   margin: 6px;
+ }
+ .left_bar .item .material-symbols-outlined{
+margin-right: 12px;
+font-size:27px ;
+ }
+ .post{
+    width: 60%;
+/* background-color: blueviolet; */
+    height: 100%;
+ }
+
+.post .story .item{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+   font-size: 12px;
+   font-weight: 200;
+}
+
+.post .story{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: 8px;
+}
+
+.post .story .item .profile{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+ .post .story .item .profile .img{
+   border-radius: 50%;
+   background-image: conic-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #feda75);
+   display: inline-block;
+   padding: 2px;
+   position: relative;
+ }
+
+ .post .story .item .profile .img img{
+   height: 63px;
+   width: 63px;
+   display: block;
+   border-radius: 50%;
+   padding: 3px;
+   object-fit: cover;
+
+ }
+
+.post .story .item .profile .img #badge {
+  position: absolute;
+  top: 42px; 
+  left: 38px;
+  object-fit: cover;
+  display: block;
+  background-color: transparent;
+  color: white;
+  border-radius: 25%;
+  height: 15px;
+  width: 15px;
+  padding: 4px 8px;  
+  font-size: 24x;    
+  font-weight: bold;
+    z-index: 10;        
+}
+
+.post .main{
+   height: 75vh;
+   width: 70%;
+   margin: auto;
+
+}
+
+.post .main .profile{
+   display: flex;
+   margin: 10px;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 10px;
+}
+
+.post .main .profile img{
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   padding: 2px;
+   box-sizing: border-box;
+   display: inline-block;
+     background-image: conic-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #feda75);
+}
+
+.post .main .img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.post .main .img img{
+   height: auto;
+   width: 100%;
+   border-radius: 10px;
+}
+
+.post .main .engagment{
+   display: flex;
+margin: 10px;
+justify-content: space-between;
+align-items: center;
+}
+
+.post .main .engagment .left{
+display: flex;
+align-items: center;
+gap: 15px;
+}
+
+.post .main .engagment .material-symbols-outlined{
+   font-size: 1.58rem;
+}
+
+ .suggestion_section{
+    /* background-color: brown; */
+    width:24%;
+    height: 100vh; 
+ }
+
+ .suggestion_section .suggestion{
+   display: flex;
+   justify-content: space-between;
+   /* gap: 15px; */
+   padding: 10px;
+   font-size: 14px;
+   align-items: center;
+ }
+.suggestion_section .profile{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+ .suggestion .profile .img{
+   border-radius: 50%;
+   background-image: conic-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #feda75);
+   display: inline-block;
+   padding: 2px;
+   position: relative;
+ }
+
+ .suggestion .profile .img img{
+ height: 50px;
+   width: 50px;
+   display: block;
+   border-radius: 50%;
+   padding: 3px;
+   object-fit: cover;
+
+ }
+ .follow{
+   color: #962fbf;
+   
+ }
+ .m{margin-top: 40px;}
+
+.suggestion_section .suggestion .profile h5{
+   color: #bcbab7;
+}
+.see{
+   color: whitesmoke;
+}
